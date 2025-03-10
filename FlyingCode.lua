@@ -60,7 +60,7 @@ local Tween = TS:Create(Part, TweenInfo, {Color = Color3.new(1, 1, 1)}) -- insta
 
 Tween:Play() -- tweeni oynatiyo
 
-Tween.Complete:Wait() -- tween bitene kadar bekle
+Tween.Completed:Wait() -- tween bitene kadar bekle
 
 print("Tween Bitti!") 
 --]]
